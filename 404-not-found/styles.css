@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+span {
+    font-weight: bold;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.section {
+    height: 100px;
+}
+
+footer {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 961px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .scarecrow,
+    .content{
+        width: 50%;
+    }
+}
